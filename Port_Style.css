@@ -1,0 +1,141 @@
+*{
+vertical-align: top;
+font-family: sans-serif;
+
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+#Wrapper{
+    background-color:whitesmoke;
+    height: 1200px;
+    width: 1500px;
+    vertical-align: bottom;
+    font-weight: 200;
+}
+
+/* red in wire frame*/
+#Red_Box{
+    width:33%;
+    padding:0;
+}
+#Top{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    /* width: fit-content; */
+}
+
+/* blue in wireframe */
+#Black_Purple{ 
+    background-color: rgb(92, 70, 81);
+    height: fit-content; /*  nned help aligning */
+    width: fit-content;
+    padding: 10px;
+} 
+
+/* orange in wire frame */
+#Orange{
+display:flex;
+justify-content: space-evenly;
+height: fit-content;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    font-size: 12;
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+#Green_Box{
+    padding: 15px;
+    display: flex;
+    justify-content:  space-evenly;
+}
+
+.Little_Red_Boxes{
+    background-color: #ddcfdc;
+    height:fit-content;
+    width: 20%;
+    padding: 1px;
+    display: inline-block;
+}
+
+
+.biggy img{
+    width: 100%;
+}
+/* decendent selector */
+
+.Little_Red_Boxes img{
+    width: 48px;
+    margin: 3px;
+}
+
+
+
+h3{
+    color: White;
+    background-color: gray;
+    padding: 10px;
+    
+}
+
+h2{
+    color: White;
+    background-color: gray;
+    padding: 10px;
+}
+
+
+.button{
+    display: flex;
+    color:white;
+    font-weight: bold; 
+    border:1px black;
+    margin: 100px auto;
+    box-shadow: 3px 3px 25px gray;
+    background-color: green;
+    width: 100px;  /*need help with this */ 
+    padding:5px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button:hover{
+    padding:20px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    font-weight: lighter; /* need help making font smaller*/
+    padding:3px;
+    width: auto; 
+    
+}
+
+#footer_bottom{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+
+}
+#footer img{
+    display: flex;
+    width: 20px;
+}
+
